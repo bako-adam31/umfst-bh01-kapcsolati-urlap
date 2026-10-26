@@ -68,11 +68,15 @@ Az `index.html` form-jaban a `<button>` elem egy `<a href="#">` hivatkozasba vol
 
 ## 6. hiba
 - **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+VoiceOverel az oldal tetejere navigalva a logonal a kep leiras helyett a fajlnevet olvasta fel.
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
+Az `index.html` 10. soraban a fejlec kepe (`<img>`) nem rendelkezett `alt` attributummal.
 - **Javítás (commit link, előtte/utána kódrészlet):** 
 *Commit link:*
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+Megvizsgaltam az elemet kepernyoolvasoval
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+a hianyzo alt attributumra valo figyelmeztetes
 
 ## 7. hiba
 - **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
