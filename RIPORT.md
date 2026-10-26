@@ -50,7 +50,7 @@ A navigacio soran semmilyen vizualis fokuszkeret nem jelent meg a kijelolt mezok
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 A `style.css` 6. soraban az `input:focus, select:focus, textarea:focus, button:focus { outline: none; }` szabaly teljes mertekben kikapcsolta a fokusz
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:*
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/48cd3c1120dc954cd4ff2e635b4a99978eb11609
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 vegigmentem az oldalon billentyuvel
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
@@ -62,7 +62,7 @@ Kuldes gomb eleresehez ketszer kellett megnyomni a Tab gombot.
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 Az `index.html` form-jaban a `<button>` elem egy `<a href="#">` hivatkozasba volt becsomagolva.
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:*
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/48cd3c1120dc954cd4ff2e635b4a99978eb11609
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
 
@@ -72,7 +72,7 @@ VoiceOverel az oldal tetejere navigalva a logonal a kep leiras helyett a fajlnev
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 Az `index.html` 10. soraban a fejlec kepe (`<img>`) nem rendelkezett `alt` attributummal.
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:*
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/3efcb5bae644657c755cdd145c2a0cf6f2d4b113
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 Megvizsgaltam az elemet kepernyoolvasoval
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
@@ -80,11 +80,15 @@ a hianyzo alt attributumra valo figyelmeztetes
 
 ## 7. hiba
 - **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+Az oldal magyar nyelvu szovegeit a szoftver angolul olvasta fel
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
+Az `index.html` 2. soraban a nyito `<html>` elem nem tartalmazott `lang` attributumot
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:*
+*Commit link:* 
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+A `lang=hu` hozzaadasa utan magyarul olvasta fel
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+Minden HTML dokumentum gyokerelemen kotelezo megadni a dokumentum fo nyelvet
 
 ## Összegzés
 - Mit tanultam: 
