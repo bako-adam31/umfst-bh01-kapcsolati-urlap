@@ -26,8 +26,20 @@ Devtool sagitsegevel latszott hogy a `.cim` el van irva
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 a `style.css` 3. sora volt serult `color` helyett `colour` eliras volt
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:* 
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/a55556e2363b697d1b3f0b8f2097e69a90c10885
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 Frissites utan eltunt a hiba es a cim is mar zolden jelent meg
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
 A bongeszo nem ad hibat elgepelt css tulajdonsagoknal ezert a Devtoolban ellenorizheto az elgepeles
+
+## 3. hiba
+- **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+Mobilböngészőben (vagy DevTools mobil nezetben) az E-mail cim mezore kattintva a sima billentyuzet jelent meg az e-mail billentyuzet helyett
+- **Gyökérok (melyik sor, melyik szabály sérül):** 
+Az `index.html` form-jaban az e-mail beviteli mezo tipusa hibasan `type="text"` volt `type="email"` helyett. Emiatt sem a mobil billentyuzet-kiosztasi opciok, sem az e-mail validacio nem mukodott
+- **Javítás (commit link, előtte/utána kódrészlet):** 
+*Commit link:*
+- **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+W3C validatorral ellenoriztem a HTML kodot. A form elkuldesekor „alma” megadasara a böngeszo beepitett hibaüzenetet adott
+- **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+Mindig a tartalomnak megfelelo input tipust kell hasznalni
