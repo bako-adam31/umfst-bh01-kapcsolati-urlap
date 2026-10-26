@@ -84,12 +84,12 @@ Az oldal magyar nyelvu szovegeit a szoftver angolul olvasta fel
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 Az `index.html` 2. soraban a nyito `<html>` elem nem tartalmazott `lang` attributumot
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:* 
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/d7421b12426eaef5640b43a9867ebacb70ed1dc9
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 A `lang=hu` hozzaadasa utan magyarul olvasta fel
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
 Minden HTML dokumentum gyokerelemen kotelezo megadni a dokumentum fo nyelvet
 
 ## Összegzés
-- Mit tanultam: 
-- Melyik alapelv sérült a leggyakrabban: 
+- Mit tanultam: Azt, hogy a vizualis megjelenes nem helyettesiti a helyes HTML szerkezetet. A kepernyoolvasok es a billentyuzetes navigacio csak akkor mukodnek megfeleloen hasznaljuk
+- Melyik alapelv sérült a leggyakrabban: A HTML es az azonosithatosag alapelve
