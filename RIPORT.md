@@ -38,8 +38,50 @@ Mobilböngészőben (vagy DevTools mobil nezetben) az E-mail cim mezore kattintv
 - **Gyökérok (melyik sor, melyik szabály sérül):** 
 Az `index.html` form-jaban az e-mail beviteli mezo tipusa hibasan `type="text"` volt `type="email"` helyett. Emiatt sem a mobil billentyuzet-kiosztasi opciok, sem az e-mail validacio nem mukodott
 - **Javítás (commit link, előtte/utána kódrészlet):** 
-*Commit link:*
+*Commit link:* https://github.com/bako-adam31/umfst-bh01-kapcsolati-urlap/commit/776ab34e2c29323477a9a574948ac3356ad392bc
 - **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
 W3C validatorral ellenoriztem a HTML kodot. A form elkuldesekor „alma” megadasara a böngeszo beepitett hibaüzenetet adott
 - **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
 Mindig a tartalomnak megfelelo input tipust kell hasznalni
+
+## 4. hiba
+- **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+A navigacio soran semmilyen vizualis fokuszkeret nem jelent meg a kijelolt mezok és gombok korul
+- **Gyökérok (melyik sor, melyik szabály sérül):** 
+A `style.css` 6. soraban az `input:focus, select:focus, textarea:focus, button:focus { outline: none; }` szabaly teljes mertekben kikapcsolta a fokusz
+- **Javítás (commit link, előtte/utána kódrészlet):** 
+*Commit link:*
+- **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+vegigmentem az oldalon billentyuvel
+- **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+nem szabad eltavolitani az outlinet anelkul hogy `focus-visible` stilust hasznalnank
+
+## 5. hiba
+- **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+Kuldes gomb eleresehez ketszer kellett megnyomni a Tab gombot.
+- **Gyökérok (melyik sor, melyik szabály sérül):** 
+Az `index.html` form-jaban a `<button>` elem egy `<a href="#">` hivatkozasba volt becsomagolva.
+- **Javítás (commit link, előtte/utána kódrészlet):** 
+*Commit link:*
+- **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+- **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+
+## 6. hiba
+- **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+- **Gyökérok (melyik sor, melyik szabály sérül):** 
+- **Javítás (commit link, előtte/utána kódrészlet):** 
+*Commit link:*
+- **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+- **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+
+## 7. hiba
+- **Hiba leírása és reprodukálása (lépések, böngésző, segédtechnológia):** 
+- **Gyökérok (melyik sor, melyik szabály sérül):** 
+- **Javítás (commit link, előtte/utána kódrészlet):** 
+*Commit link:*
+- **Hogyan tesztelted (W3C validátor, Lighthouse, Tab-bejárás, képernyőolvasó):** 
+- **Tanulság / érintett alapelv (pl. Szemantika előbb, stílus később; WCAG-kritérium):** 
+
+## Összegzés
+- Mit tanultam: 
+- Melyik alapelv sérült a leggyakrabban: 
